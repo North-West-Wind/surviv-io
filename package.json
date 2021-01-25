@@ -1,0 +1,27 @@
+{
+  "name": "surviv-io",
+  "version": "1.0.0",
+  "description": "A package to help fetch the Surviv.io API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/North-West-Wind/surviv-io.git"
+  },
+  "keywords": [
+    "survivio",
+    "surviv.io",
+    "api"
+  ],
+  "author": "NorthWestWind",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/North-West-Wind/surviv-io/issues"
+  },
+  "homepage": "https://github.com/North-West-Wind/surviv-io#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
