@@ -1,5 +1,5 @@
 {
-  "name": "surviv-io",
+  "name": "survivio-api",
   "version": "1.0.0",
   "description": "A package to help fetch the Surviv.io API.",
   "main": "index.js",

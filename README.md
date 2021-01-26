@@ -1,4 +1,4 @@
-# Surviv-io
+# Survivio-API
 A package to help fetch the Surviv.io API.
 
 ## Usage
