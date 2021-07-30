@@ -10,12 +10,11 @@ await surviv.getHistory("username", options);
 await surviv.getLeaderboard(options);
 ```
 
-`getHistory()` options:
+Options of `getHistory()`:
 - Offset: Integer. The offset of the matches.
 - Count: Integer. The amount of matches to retrieve.
 
-`getLeaderboard()` options:
-{ map: "normal", interval: "daily", type: "most_kills", team: "solo", count: 100 }
+Options of `getLeaderboard()`:
 - Map: String. The name of the map. Listed below.
 ```js
 const maps = [
@@ -52,9 +51,3 @@ const types = [ "most_kills", "most_damage_dealt", "kpg", "kills", "wins" ];
 const teamModes = [ "solo", "duo", "squad" ];
 ```
 - Count: Integer. The number of users to retrieve.
-
-## Testing
-Install and run the following command:
-```
-npm test
-```
