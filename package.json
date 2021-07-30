@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A package to help fetch the Surviv.io API.",
   "main": "index.js",
+  "files": ["lib/**/*"],
   "scripts": {
-    "test": "node test.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,9 @@
   "homepage": "https://github.com/North-West-Wind/surviv-io#readme",
   "dependencies": {
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.12",
+    "typescript": "^4.3.5"
   }
 }
