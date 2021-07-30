@@ -2,7 +2,7 @@
   "name": "survivio-api",
   "version": "1.0.3",
   "description": "A package to help fetch the Surviv.io API.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
     "lib/**/*"
   ],
