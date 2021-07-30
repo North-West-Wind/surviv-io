@@ -1,9 +1,11 @@
 {
   "name": "survivio-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to help fetch the Surviv.io API.",
   "main": "index.js",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
