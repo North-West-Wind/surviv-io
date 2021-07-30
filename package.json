@@ -1,6 +1,6 @@
 {
   "name": "survivio-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A package to help fetch the Surviv.io API.",
   "main": "index.js",
   "files": [
